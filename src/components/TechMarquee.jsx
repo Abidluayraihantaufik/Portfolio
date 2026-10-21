@@ -59,14 +59,7 @@ const techItems = [
       </svg>
     )
   },
-  {
-    name: 'Supabase',
-    icon: (
-      <svg viewBox="0 0 24 24" className="w-5 h-5 flex-shrink-0" fill="none">
-        <path fill="#3ECF8E" d="M13.4 22c-.6.8-1.9.3-1.8-.7l.9-9.3H3.8c-.8 0-1.3-.9-.9-1.6L12.5 2c.6-.8 1.9-.3 1.8.7l-.9 9.3h8.7c.8 0 1.3.9.9 1.6L13.4 22z" />
-      </svg>
-    )
-  },
+
   {
     name: 'Node.js',
     icon: (
