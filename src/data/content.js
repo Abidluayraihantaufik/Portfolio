@@ -11,12 +11,12 @@ export const content = {
     },
     hero: {
       greeting: "Hi, I'm Abid Lu'ay Raihan Taufik",
-      roles: ["Web Developer", "IT Helpdesk"],
+      roles: ["Web Developer"],
       headlinePrimary: "Web Developer",
-      headlineSecondary: "IT Helpdesk",
+      headlineSecondary: "",
       subtitle: "Informatics Student",
       univ: "Universitas Pelita Bangsa",
-      pitch: "Building responsive, modern web applications and providing reliable IT Helpdesk & technical support.",
+      pitch: "Building responsive, modern, and high-performance web applications with clean code and seamless user experiences.",
       cta_projects: "View Projects",
       cta_contact: "Get in Touch",
       cta_work: "View Certificates",
@@ -45,34 +45,31 @@ export const content = {
       filterSoft: "Soft Skills",
       domains: [
         {
-          id: "web",
-          title: "Web Development",
-          category: "Frontend & Fullstack",
-          desc: "Building clean, responsive, and maintainable web applications with modern frontend frameworks and structured backend integrations.",
+          id: "frontend",
+          title: "Frontend Development",
+          category: "Client-side & UI/UX",
+          desc: "Crafting modern, accessible, and responsive user interfaces with component-driven architectures and efficient styling.",
           skills: [
             "HTML5",
             "CSS3",
             "JavaScript (ES6+)",
             "React.js",
             "Tailwind CSS",
-            "Node.js",
-            "RESTful API",
-            "MySQL / SQL",
-            "Git & GitHub",
             "Responsive Web Design"
           ]
         },
         {
-          id: "it",
-          title: "Basic IT Support",
-          category: "Hardware, OS & Infrastructure",
-          desc: "Fundamental technical support covering hardware diagnostics, operating systems, networking, software maintenance, and hands-on troubleshooting.",
+          id: "backend",
+          title: "Backend & Database",
+          category: "Server-side & Tooling",
+          desc: "Structuring server integrations, RESTful APIs, relational SQL databases, version control, and cloud deployments.",
           skills: [
-            "Hardware",
-            "Operating Systems",
-            "Networking",
-            "Software",
-            "Troubleshooting"
+            "Node.js",
+            "RESTful API",
+            "MySQL / SQL",
+            "Git & GitHub",
+            "Vite",
+            "Vercel Deployment"
           ]
         }
       ],
@@ -80,7 +77,7 @@ export const content = {
         id: "soft",
         title: "Professional / Soft Skills",
         category: "Interpersonal & Workplace Excellence",
-        desc: "Essential interpersonal, communication, and analytical strengths developed through collaborative teamwork and technical support problem-solving.",
+        desc: "Essential interpersonal, communication, and analytical strengths developed through collaborative teamwork and software problem-solving.",
         skills: [
           "Problem Solving & Analytical Thinking",
           "Teamwork & Cross-functional Collaboration",
@@ -144,12 +141,12 @@ export const content = {
     },
     hero: {
       greeting: "Halo, Saya Abid Lu'ay Raihan Taufik",
-      roles: ["Web Developer", "IT Helpdesk"],
+      roles: ["Web Developer"],
       headlinePrimary: "Web Developer",
-      headlineSecondary: "IT Helpdesk",
+      headlineSecondary: "",
       subtitle: "Mahasiswa Teknik Informatika",
       univ: "Universitas Pelita Bangsa",
-      pitch: "Membangun aplikasi web modern yang responsif serta menyediakan solusi dan dukungan teknis IT Helpdesk yang andal.",
+      pitch: "Membangun aplikasi web modern yang responsif, terstruktur, serta berfokus pada performa dan pengalaman pengguna yang optimal.",
       cta_projects: "Lihat Proyek",
       cta_contact: "Hubungi Saya",
       cta_work: "Lihat Sertifikat",
@@ -178,34 +175,31 @@ export const content = {
       filterSoft: "Soft Skills",
       domains: [
         {
-          id: "web",
-          title: "Pengembangan Web",
-          category: "Frontend & Fullstack",
-          desc: "Membangun antarmuka web modern yang responsif, terstruktur, efisien, serta integrasi sistem backend yang handal.",
+          id: "frontend",
+          title: "Pengembangan Frontend",
+          category: "Client-side & UI/UX",
+          desc: "Membangun antarmuka web modern yang responsif, interaktif, dan optimal dengan arsitektur komponen terstruktur.",
           skills: [
             "HTML5",
             "CSS3",
             "JavaScript (ES6+)",
             "React.js",
             "Tailwind CSS",
-            "Node.js",
-            "RESTful API",
-            "MySQL / SQL",
-            "Git & GitHub",
             "Desain Web Responsif"
           ]
         },
         {
-          id: "it",
-          title: "Dukungan TI Dasar",
-          category: "Hardware, OS & Jaringan",
-          desc: "Dukungan teknis dasar mencakup pengelolaan perangkat keras, sistem operasi, jaringan komputer, perangkat lunak, serta penanganan troubleshooting.",
+          id: "backend",
+          title: "Backend & Basis Data",
+          category: "Server-side & Tooling",
+          desc: "Pengelolaan database relasional SQL, integrasi RESTful API, versi kontrol Git, dan arsitektur backend terstruktur.",
           skills: [
-            "Perangkat Keras",
-            "Sistem Operasi",
-            "Jaringan",
-            "Perangkat Lunak",
-            "Troubleshooting"
+            "Node.js",
+            "RESTful API",
+            "MySQL / SQL",
+            "Git & GitHub",
+            "Vite",
+            "Deploy ke Vercel"
           ]
         }
       ],
@@ -213,7 +207,7 @@ export const content = {
         id: "soft",
         title: "Professional / Soft Skills",
         category: "Interpersonal & Karakter Kerja",
-        desc: "Kekuatan interpersonal, komunikasi efektif, kedisiplinan, serta pemecahan masalah analitis dalam kerja sama tim dan pelayanan teknis.",
+        desc: "Kekuatan interpersonal, komunikasi efektif, kedisiplinan, serta pemecahan masalah analitis dalam kerja sama tim dan pengembangan perangkat lunak.",
         skills: [
           "Problem Solving & Berpikir Analitis",
           "Kerja Sama Tim & Kolaborasi",

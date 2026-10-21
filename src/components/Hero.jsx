@@ -130,10 +130,9 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.25 }}
             className="flex-1 text-center md:text-left"
           >
-            {/* Title: Web Developer & IT Helpdesk */}
+            {/* Title: Web Developer */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15] mb-3">
-              Web Developer <br className="hidden sm:inline" />
-              <span className="text-slate-300 font-bold">&amp; IT Helpdesk</span>
+              Web Developer
             </h1>
 
             {/* Subtitle with student/education icon */}

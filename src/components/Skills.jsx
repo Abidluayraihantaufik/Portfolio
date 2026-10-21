@@ -8,8 +8,9 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState('technical'); // 'technical' | 'soft'
 
   const skillIcons = {
-    web: <Layout className="text-accentCyan" size={28} />,
-    it: <Headphones className="text-emerald-400" size={28} />
+    frontend: <Layout className="text-accentCyan" size={28} />,
+    backend: <Code2 className="text-accentIndigo" size={28} />,
+    web: <Layout className="text-accentCyan" size={28} />
   };
 
   return (

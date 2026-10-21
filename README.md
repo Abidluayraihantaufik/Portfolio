@@ -11,9 +11,9 @@
 
 ## 👨‍💻 About Me
 - **Name:** Abid Lu'ay Raihan Taufik
-- **Role:** Web Developer & IT Helpdesk
+- **Role:** Web Developer
 - **Education:** Final-Year Informatics Engineering Student at Universitas Pelita Bangsa (GPA 3.56)
-- **Focus Areas:** Software Engineering, Fullstack Web Development, Data Analytics, and Technical IT Support.
+- **Focus Areas:** Software Engineering, Fullstack Web Development, and Data Analytics.
 
 ---
 
@@ -28,10 +28,9 @@
 ---
 
 ## 🛠️ Tech Stack & Skills
-- **Frontend & Web:** React 19, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS v4, Framer Motion, Lucide Icons
-- **Database & Data:** MySQL, SQL, Data Science with Microsoft Fabric
-- **Tools & Platforms:** Git, GitHub, Vite, Vercel, Node.js
-- **IT Support:** Hardware Diagnostics, OS Management (Windows/Linux), Networking, Troubleshooting
+- **Frontend:** React 19, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS v4, Framer Motion, Lucide Icons
+- **Backend & Database:** Node.js, RESTful API, MySQL, SQL, Data Science with Microsoft Fabric
+- **Tools & Platforms:** Git, GitHub, Vite, Vercel, Postman
 
 ---
 
