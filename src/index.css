@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-darkbg: #090a0f;
+  --color-cardbg: #12131a;
+  --color-cardborder: #1e202e;
+  --color-accentcyan: #38bdf8;
+  --color-accentindigo: #6366f1;
+  --color-accentCyan: #38bdf8;
+  --color-accentIndigo: #6366f1;
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-darkbg);
+    color: #f8fafc;
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Utilities for Glassmorphism & Animations */
+@layer utilities {
+  .glass-panel {
+    background-color: rgba(18, 19, 26, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(30, 32, 46, 0.6);
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, var(--color-accentcyan), var(--color-accentindigo));
+  }
+}
