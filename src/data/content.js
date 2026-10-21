@@ -17,6 +17,7 @@ export const content = {
       subtitle: "Informatics Student",
       univ: "Universitas Pelita Bangsa",
       pitch: "Building responsive, modern web applications and providing reliable IT Helpdesk & technical support.",
+      cta_projects: "View Projects",
       cta_contact: "Get in Touch",
       cta_work: "View Certificates",
       available: "Available for Opportunities"
@@ -149,6 +150,7 @@ export const content = {
       subtitle: "Mahasiswa Teknik Informatika",
       univ: "Universitas Pelita Bangsa",
       pitch: "Membangun aplikasi web modern yang responsif serta menyediakan solusi dan dukungan teknis IT Helpdesk yang andal.",
+      cta_projects: "Lihat Proyek",
       cta_contact: "Hubungi Saya",
       cta_work: "Lihat Sertifikat",
       available: "Tersedia untuk Peluang Baru"
@@ -341,3 +343,12 @@ export const certificatesData = [
     validUntil: "08 September 2029"
   }
 ];
+
+// Centralized social & contact links
+export const socialLinks = {
+  github: "https://github.com/Abidluayraihantaufik",
+  linkedin: "https://www.linkedin.com/in/abid-lu%E2%80%99ay-raihan-taufik-210bb430a/",
+  email: "mailto:abidluay204@gmail.com",
+  rawEmail: "abidluay204@gmail.com",
+  whatsapp: "https://wa.me/62895377864560"
+};
